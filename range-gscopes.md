@@ -51,6 +51,12 @@ Operator must be one of the following >,>=,<,<=,=,!=
 
 Value is the numeric comparison value
 
+Edit the collection's gscopes.cfg file to add placeholders for the gscope numbers that were chosen for the ranges.cfg.  This will ensure that anybody who edits the gscopes.cfg will not reuse those gscope numbers for something else (which will mean that the ranges generated include some items that shouldn't be included).
+
+	10 RESERVEDFORNUMERICFACETS!!
+	11 RESERVEDFORNUMERICFACETS!!
+	12 RESERVEDFORNUMERICFACETS!!
+
 ### Step 3: Workflow command
 
 Add the following command to the collection's workflow
