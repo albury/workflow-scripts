@@ -4,6 +4,8 @@
 
 Sets up generalised scopes for numeric ranges.  The ranges can then be used for scoping or for faceted navigation categories.
 
+Please note that range facets are supported natively since Funnelback 15.12.
+
 ## Configuration
 
 ### Step 1: Install range-gscopes.pl
